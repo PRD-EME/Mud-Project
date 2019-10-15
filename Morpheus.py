@@ -26,7 +26,7 @@ TE_TE = join(IT_TE, "Images_test")
 # Icône de l'application
 ico = abspath('eme.ico')
 
-# Création des répertoires s'ils n'existent pas déjà
+# Création des répertoires s'ils n'existent pas déjà TEST
 if not exists(BA):
     makedirs(BA)
 if not exists(IT):
