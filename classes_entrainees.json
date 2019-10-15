@@ -1,0 +1,14 @@
+[
+    {
+        "classe": "Protozoaires",
+        "couleur": "red"
+    },
+    {
+        "classe": "Flocs",
+        "couleur": "blue"
+    },
+    {
+        "classe": "Vide",
+        "couleur": "yellow"
+    }
+]
