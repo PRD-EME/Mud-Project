@@ -134,7 +134,7 @@ def Preparer_image(image, largeur, hauteur):
 def Se_Connecter(edit_text, texte):
     mdp = edit_text.get()
 
-    if mdp == 'emeorgadetect':
+    if mdp == 'eme':
         bouton_analyse.configure(state='enabled')
         bouton_entrainement.configure(state='enabled')
         texte_mdp.configure(text="Identification réussie")
