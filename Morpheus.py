@@ -26,7 +26,7 @@ TE_TE = join(IT_TE, "Images_test")
 # Icône de l'application
 ico = abspath('eme.ico')
 
-# Création des répertoires s'ils n'existent pas déjà TEST
+# Création des répertoires s'ils n'existent pas déjà 
 if not exists(BA):
     makedirs(BA)
 if not exists(IT):
@@ -48,7 +48,7 @@ if not exists(TE_TE):
 #################################################################################################################################
 
 #--------------------------------------------------------------------------------------------------------------------------------
-# Permet de définir les propriétés de la fenêtre TEST
+# Permet de définir les propriétés de la fenêtre 
 #--------------------------------------------------------------------------------------------------------------------------------
 def Definir_geometrie(racine, texte, width, height, nbcolonnes, nblignes):
     racine.title(texte)
@@ -125,7 +125,7 @@ def Preparer_image(image, largeur, hauteur):
     return photo
     
 #################################################################################################################################
-# Méthodes relatives aux différents modes de fonctionnement de l'application TEST
+# Méthodes relatives aux différents modes de fonctionnement de l'application 
 #################################################################################################################################
 
 #--------------------------------------------------------------------------------------------------------------------------------
@@ -134,7 +134,7 @@ def Preparer_image(image, largeur, hauteur):
 def Se_Connecter(edit_text, texte):
     mdp = edit_text.get()
 
-    if mdp == 'eme':
+    if mdp == '':
         bouton_analyse.configure(state='enabled')
         bouton_entrainement.configure(state='enabled')
         texte_mdp.configure(text="Identification réussie")
