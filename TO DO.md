@@ -9,3 +9,5 @@
     | -- Reformulation
     | -- Planning des sprints  
 ```
+
+# Clarification de code
