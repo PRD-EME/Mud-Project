@@ -5,3 +5,4 @@
 /.vs
 *.pyproj
 UpgradeLog.htm
+\__pycache__
