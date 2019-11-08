@@ -17,7 +17,7 @@
     
 # Livrables
 ## Reformulation
-_En attente du client
+_En attente du client_
 
 ## Planning des sprints
-_Perdu dans le reset des disques C:\ ... Reprise
+_Perdu dans le reset des disques C:\ ... Reprise_
