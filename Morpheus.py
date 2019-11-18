@@ -14,16 +14,16 @@ import CNN
 import Detection
 
 # Liste des répertoires nécessaires au fonctionnement de l'application
-BA = join(environ["USERPROFILE"], "Desktop/Base d'apprentissage")
-IT = join(environ["USERPROFILE"], "Desktop/Images traitées")
-IR = join(environ["USERPROFILE"], "Desktop/Images rejetées")
+BA = "S:\EME2020\CODE\BaseApprentissage"
+IT = "S:\EME2020\CODE\ImagesTraitées"
+IR = "S:\EME2020\CODE\ImagesRejetées"
 
 IT_TR = join(IT, "train")
 IT_VA = join(IT, "validation")
 IT_TE = join(IT, "test")
-TE_TE = join(IT_TE, "Images_test")
+TE_TE = join(IT_TE, "Images_test") 
 
-# Icône de l'application
+# Icône de l'application  
 ico = abspath('eme.ico')
 
 # Création des répertoires s'ils n'existent pas déjà 
